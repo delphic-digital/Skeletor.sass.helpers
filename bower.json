@@ -5,7 +5,7 @@
     "Jeff <jmills@delphicdigital.com>"
   ],
   "description": "Bunch of sass helper classes",
-  "main": "helpers.scss",
+  "main": "skeletor.sass.helpers.scss",
   "license": "MIT",
   "ignore": [
     "**/.*",
