@@ -41,7 +41,7 @@ $background-props: (
 	}
 }
 
-@include breakpoint($wide){
+@include breakpoint($large){
 	@each $props, $background-prop in $background-props {
 		@each $prop in $background-prop {
 			.lg-bkg-#{str-replace($prop, ' ', '-')} { #{$props} : #{$prop}; }
@@ -49,7 +49,7 @@ $background-props: (
 	}
 }
 
-@include breakpoint($superwide){
+@include breakpoint($xlarge){
 	@each $props, $background-prop in $background-props {
 		@each $prop in $background-prop {
 			.xlg-bkg-#{str-replace($prop, ' ', '-')} { #{$props} : #{$prop}; }
